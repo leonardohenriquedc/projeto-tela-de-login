@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores 
+        Foco das cores: roxo - azul
+            #5417EA - tons - roxo 
+            #594196 - tons - roxo
+            #5B33C0 - tons - roxo 
+            #1011EB - tons - azul 
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#img-setup{
+    width: 50px;
+}
