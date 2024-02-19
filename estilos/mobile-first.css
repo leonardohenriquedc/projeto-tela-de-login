@@ -55,12 +55,12 @@ main{
 }
 
 #formulario > h1{
-    font-size: 1.5em;
+    font-size: 2vw;
     padding: 5px;
 }
 
 #formulario > p{
-    font-size: 1.3em;
+    font-size: 1.7vw;
     font-weight: bold;
 }
 
@@ -77,6 +77,7 @@ main{
 
 #senha, #email{
     max-width: 70%;
+    height: 25px;
 }
 
 #Lsenha, #Lmmail{
@@ -97,3 +98,28 @@ main{
     font-family: 'Times New Roman', Times, serif;
 }
 
+#entrar:hover{
+    background-color: #5d10eb;
+    color: white;
+}
+
+#redf:hover{
+    background-color: #594196;
+    color: white;
+}
+
+@media screen and (max-height: 600px){
+    #botoes{
+        margin: auto;
+        text-align: center;
+    }
+
+    #botoes p{
+        display: inline-block;
+        width: 33vw;
+    }
+
+    #entrar, #redf{
+        font-size: 2vw;
+    }
+}
