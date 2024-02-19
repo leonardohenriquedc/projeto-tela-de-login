@@ -55,12 +55,12 @@ main{
 }
 
 #formulario > h1{
-    font-size: 2vw;
+    font-size: 3vw;
     padding: 5px;
 }
 
 #formulario > p{
-    font-size: 1.7vw;
+    font-size: 2vw;
     font-weight: bold;
 }
 
@@ -76,7 +76,7 @@ main{
 }
 
 #senha, #email{
-    max-width: 70%;
+    max-width: 60%;
     height: 25px;
 }
 
