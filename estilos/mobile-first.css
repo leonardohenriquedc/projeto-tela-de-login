@@ -62,6 +62,7 @@ main{
 #formulario > p{
     font-size: 2vw;
     font-weight: bold;
+    text-align: center;
 }
 
 #email, #senha{
@@ -71,17 +72,44 @@ main{
 }
 
 .pe{
-    width: 70%;
-    margin: auto;
+    margin: 5px auto;
+    width: 80%;
+    height: 30px;
+    font-size: 0px;
+    position: relative;
+    background-color: #5417EA;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 #senha, #email{
-    max-width: 60%;
     height: 25px;
+    transform: translateY(-25%);
+    width: calc(100% - 50px);
+    text-align: center;
+    border-radius: 7px;
 }
 
-#Lsenha, #Lmmail{
-  
+#email-favicon, #senha-favicon{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-color: #5417EA;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(5%);
+    
+    
+}
+
+#email-favicon{
+    background-image: url("../imagens/person-favicon.png");
+}
+
+#senha-favicon{
+    background-image: url("../imagens/key-favicon.png");
 }
 
 #entrar, #redf{
@@ -91,6 +119,8 @@ main{
     background-color: transparent;
     border: 1px solid black;
     font-weight: bolder;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 #entrar{
