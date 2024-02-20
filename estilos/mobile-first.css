@@ -140,6 +140,10 @@ main{
 }
 
 @media screen and (max-height: 600px){
+    main{
+        height: 300px;
+    }
+
     #botoes{
         margin: auto;
         text-align: center;
